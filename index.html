@@ -1,0 +1,111 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>For Saru 🐯</title>
+
+<style>
+body{
+    background:#ffd6e7;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    padding:40px;
+    overflow-x:hidden;
+}
+
+.card{
+    background:white;
+    max-width:700px;
+    margin:auto;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+}
+
+.tiger{
+    font-size:40px;
+    animation:bounce 2s infinite;
+}
+
+@keyframes bounce{
+    50%{transform:translateY(-10px);}
+}
+
+.popup{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.popup-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    background:pink;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="popup" id="popup">
+    <div class="popup-box">
+        <h2>🎀 IMPORTANT 🎀</h2>
+        <p>We are just friends 😭✨</p>
+        <button onclick="closePopup()">Continue</button>
+    </div>
+</div>
+
+<div class="card">
+
+<div class="tiger">🐯 🎀 🐯</div>
+
+<h1>For Astitva Pratap Singh</h1>
+<h3>(aka Sarthak, aka Saru)</h3>
+
+<p>
+Dear Saru,
+<br><br>
+
+Thank you for always being there for me.
+
+I'm genuinely so glad that I met you in Lucknow.
+Out of all the people I could have met, somehow I met you, and that makes me really happy.
+
+Thank you for the conversations, the memories, the support, and all the random moments that somehow became important.
+
+I hope one day we can explore Lucknow together again, make even more memories, try new things, and laugh about everything afterwards.
+
+No matter where life takes us, I'm grateful that our paths crossed.
+
+Thank you for being such an amazing friend.
+
+🐯🎀💗
+</p>
+
+<h3>— Annie</h3>
+
+</div>
+
+<script>
+function closePopup(){
+    document.getElementById("popup").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+```
